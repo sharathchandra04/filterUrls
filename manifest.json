@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "URL Capture Extension",
+  "version": "1.0",
+  "description": "Captures the URL of the newest tab opened.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
